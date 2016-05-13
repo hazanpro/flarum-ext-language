@@ -1,0 +1,29 @@
+{
+	"name": "hazanpro/flarum-ext-language",
+	"description": "Flarum's Languages Pack",
+	"type": "flarum-extension",
+	"keywords": ["flarum", "flagrow", "language", "pack"],
+	"homepage": "http://flagrow.github.io/",
+	"license": "MIT",
+
+	"require": {
+		"flarum/core": "^0.1.0-beta.5"
+	},
+
+	"autoload": {
+		"psr-4": {
+			"Flagrow\\Language\\": "src/"
+		}
+	},
+
+	"extra": {
+		"flarum-extension": {
+			"title": "Language",
+			"icon": {
+				"name": "language",
+				"backgroundColor": "#000000",
+				"color": "#ffffff"
+			}
+		}
+	}
+}
